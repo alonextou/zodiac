@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>CS295 - Fall 2012</title>
+	<title>Zodiac</title>
 	<link rel="stylesheet" href="css/foundation.min.css">
 	<link rel="stylesheet" href="css/default.css">
 	<!--[if IE]>
@@ -16,8 +16,6 @@
 	<?php include 'partials/feed.html'; ?>
 	<?php include 'partials/side-left.html'; ?>
 	<?php include 'partials/side-right.html'; ?>
-
-
 
 </body>
 </html>
