@@ -1,3 +1,5 @@
+<?php include '../private/zodiacs.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,10 +14,15 @@
 
 <body>
 
-	<?php include 'partials/header.html'; ?>
-	<?php include 'partials/feed.html'; ?>
-	<?php include 'partials/side-left.html'; ?>
-	<?php include 'partials/side-right.html'; ?>
+	<div class="row">
+		<?php include 'partials/header.html'; ?>
+	</div>
+
+	<div class="row">
+		<?php include 'partials/feed.html'; ?>
+		<?php include 'partials/side-left.html'; ?>
+		<?php include 'partials/side-right.html'; ?>
+	</div>
 
 </body>
 </html>

@@ -1,21 +1,31 @@
-<div class="row">    
-
-  <div class="six columns push-three">
+<div class="six columns push-three">
 
   <div class="row">
-    <div class="two columns mobile-one"><img src="images/rabbit.png" /></div>
-      <div class="ten columns">
-        <p>
-          <strong>Rabbit</strong>
-          (Maoshi): 05:00 to 06:59. This is the time when the Jade Rabbit is busy pounding herbal medicine on the Moon according to the tale.
-        </p>
-        <ul class="link-list">
-        <li><a href="">Reply</a></li>
-        <li><a href="">Share</a></li>
-      </ul>
-    </div>
-  </div>
 
-  <hr />
+    <?php foreach ( $zodiacs as $zodiac => $value) { ?>
+
+    <div class="two columns mobile-one">
+      <img src="images/zodiacs/<?php echo strtolower($zodiac); ?>.png" style="position: relative; top: 32px;" />
+    </div>
+
+    <div class="ten columns">
+      
+      <h4 id="<?php echo strtolower($zodiac); ?>"><strong><?php echo $zodiac ?></strong></h4>
+      <ul>
+        <li>
+          <strong>Season:</strong> <?php echo $value["season"] ?>
+        </li>
+        <li>
+          <strong>Element:</strong> <?php echo $value["element"] ?>
+        </li>
+      </ul>
+
+    </div>
+
+    <hr>
+
+    <?php } ?>
+
+  </div>
 
 </div>
