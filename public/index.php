@@ -1,4 +1,6 @@
-<?php include '../private/zodiacs.php'; ?>
+<?php 
+include '../paths.php';
+?>
 
 <!DOCTYPE html>
 <html lang="en">
